@@ -13,7 +13,7 @@ import sigma.server.repository.PlanRepository;
 
 @RestController
 @RequestMapping("/api/plan")
-@CrossOrigin(origins = "http://194.87.56.253:8080") // Разрешаем запросы со всех доменов
+@CrossOrigin(origins = "http://194.87.56.253:8080")
 public class Controller {
 
     @Autowired
@@ -21,7 +21,6 @@ public class Controller {
 
     @GetMapping
     public List<PlanPPP> getAllFullPPP() {
-        String availability = "Полное ППП";
-        return planRepository.findByAvailability(availability);
+        return planRepository.findAll();
     }
 }
