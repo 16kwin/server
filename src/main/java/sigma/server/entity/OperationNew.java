@@ -1,5 +1,5 @@
 package sigma.server.entity;
 
-public class Operation_new {
+public class OperationNew {
     
 }
