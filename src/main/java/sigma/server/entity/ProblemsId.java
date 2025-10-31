@@ -11,7 +11,7 @@ public class ProblemsId implements Serializable {
     private String transaction;
     private String unit;
     private String description;
-    private Double norm_horse; // Используйте Double для numeric (10,2)
+    private Double norm_horse; 
     private String employees;
 
     @Override
