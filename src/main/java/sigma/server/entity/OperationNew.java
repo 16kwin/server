@@ -1,5 +1,5 @@
-package sigma.server.entity;
+//package sigma.server.entity;
 
-public class OperationNew {
+//public class OperationNew {
     
-}
+//}

@@ -1,10 +1,10 @@
-package sigma.server.repository;
+//package sigma.server.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+//import org.springframework.data.jpa.repository.JpaRepository;
 
-import sigma.server.entity.Employee;
-import sigma.server.entity.OperationNew;
+//import sigma.server.entity.Employee;
+//import sigma.server.entity.OperationNew;
 
-public interface OperationNewRepository  extends JpaRepository<OperationNew, String>{
+//public interface OperationNewRepository  extends JpaRepository<OperationNew, String>{
 
-}
+//}
