@@ -21,7 +21,6 @@ public class Controller {
 
     @GetMapping
     public List<PlanPPP> getAllFullPPP() {
-        String availability = "Полное ППП";
-        return planRepository.findByAvailability(availability);
+        return planRepository.findAll();
     }
 }

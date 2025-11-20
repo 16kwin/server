@@ -1,5 +1,7 @@
 package sigma.server.entity;
 
+import java.math.BigDecimal;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -21,7 +23,7 @@ public class OperationNorm {
     private String specialty;
 
     @Column(name = "operation_option_norm", insertable = false, updatable = false)
-    private Integer operationNorm;
+    private BigDecimal operationNorm;
 
     @Column(name = "operation_option_ppp", insertable = false, updatable = false)
     private String operationOptionPpp;
