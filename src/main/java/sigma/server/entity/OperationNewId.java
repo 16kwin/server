@@ -4,7 +4,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.Data;
 import java.io.Serializable;
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Data
@@ -18,7 +18,7 @@ public class OperationNewId implements Serializable {
     private String workPpp;
 
     @Column(name = "start")
-    private Timestamp start;
+    private LocalDateTime start;
 
     @Override
     public boolean equals(Object o) {
