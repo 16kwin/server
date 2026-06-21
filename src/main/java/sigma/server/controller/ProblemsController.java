@@ -11,7 +11,7 @@ import sigma.server.repository.ProblemsRepository; // Импортируем Pro
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://194.87.56.253:8080")
+@CrossOrigin(origins = "http://192.168.88.7:8081")
 @RequestMapping("/api/problems") // Изменяем базовый путь
 public class ProblemsController {
 

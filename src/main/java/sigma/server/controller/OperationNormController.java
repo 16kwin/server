@@ -13,7 +13,7 @@ import sigma.server.repository.OperationNormRepository;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://194.87.56.253:8080")
+@CrossOrigin(origins = "http://192.168.88.7:8081")
 @RequestMapping("/api/operationsnorm")
 public class OperationNormController {
 

@@ -13,7 +13,7 @@ import sigma.server.repository.PlanRepository;
 
 @RestController
 @RequestMapping("/api/plan")
-@CrossOrigin(origins = "http://194.87.56.253:8080")
+@CrossOrigin(origins = "http://192.168.88.7:8081")
 public class Controller {
 
     @Autowired
